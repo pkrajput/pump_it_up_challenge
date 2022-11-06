@@ -5,3 +5,11 @@ We've come up with three unique solutions in our approach:
 1) geo hashing to combine coordinates
 2) anomaly detection using knn
 3) one vs all classification attempt (not good f1 achieved)
+
+![Dashboard](taarifadashboard.png)
+
+# Label Distribution
+
+![Labels](labeldistribution.png)
+
+In our implementation we achieved the best f1 score of 0.82 using optimal hyperparameters for RandomForest via grid search
